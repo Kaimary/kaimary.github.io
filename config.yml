@@ -10,7 +10,7 @@ taxonomies:
 
 menu:
     main:
-        - name: Publications
+        - name: Selected Publications
           url: papers/
           weight: 2
         # - name: Videos
