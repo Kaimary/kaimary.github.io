@@ -1,0 +1,122 @@
+baseURL: "https://kaimary.github.io" 
+title: Yuankai Fan
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+    tag: tags
+
+menu:
+    main:
+        - name: Publications
+          url: papers/
+          weight: 2
+        # - name: Videos
+        #   url: papers/
+        #   weight: 3
+        # - name: Data
+        #   url: data/
+        #   weight: 4 
+        # - name: Blog
+        #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+        #   weight: 6
+
+params:
+    description: ""
+    author: Yuankai Fan
+    # googleAnalyticsID: "G-XXXXX"
+    DateFormat: "January 2006"
+    defaultTheme: light
+    hideFooter: false
+    disableThemeToggle: false
+    ShowShareButtons: false
+    ShowReadingTime: false
+    disableSpecial1stPost: true
+    disableAnchoredHeadings: true
+    ShowPostNavLinks: false
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowAllPagesInArchive: false
+    MainSections: ["papers"]
+    ShowToc: false
+    disableScrollToTop: true
+    TocOpen: true
+    ShowWordCount: false
+    UseHugoToc: true
+    comments: false
+    math: true
+    profileMode:
+          enabled: true
+          title: Hi! I'm Yuankai Fan 范元凯;
+          subtitle: |
+            I am now a **Researcher** at the Institute of Artificial Intelligence, China Telecom (**[TeleAI](https://github.com/Tele-AI)**). I received my Ph.D in CS from [FDU](https://cs.fudan.edu.cn) under the guidance of Prof. [X. Sean Wang](https://daslab.fudan.edu.cn/61/83/c26852a287107/page.htm) (and Prof. Zhenying He) (2017-2023). My research lies at the intersection of AI infrastructure, machine learning systems, and database systems, with a particular focus on: 1) **Data & AI Infra**: multimodal data processing & management and distributed caching systems; 2) **Efficient Distributed Training**: dynamic parallelism; 3) **Efficient Inference**: quantization and sparsity; 4) **Natural Language Interfaces**: nl2sql. <br><br>
+
+            Before joining the AI Infrastructure Research Center at TeleAI, I was a postdoctoral researcher at [FDU](https://cs.fudan.edu.cn) (2023-2024), with a primary focus on database systems. Prior to that, I worked for [Microsoft](https://www.microsoft.com/en-hk/) about seven years (2016-2023), and one year for [EMC](https://www.dell.com/en-ae/lp) (2015-2016). <br><br>
+
+            I'am looking for highly motivated students who can intern in Shanghai for 3+ months. If you're passionate about AI systems, please email me your CV. Experience with deep learning training/inference frameworks (deepspeed/megatron-lm/vllm/xdit), distributed caching systems (mooncake/dynamo), or distributed computing framworks (ray/spark) is a plus but not required.
+          imageUrl: "profile_pic.jpg"
+          imageWidth: 200
+          imageHeight: 200
+          buttons:
+            - name: Publications
+              url: papers/
+            # - name: MSc Thesis
+            #   url: theses/msc_thesis.pdf
+            # - name: BSc Thesis
+            #   url: theses/bsc_thesis.pdf
+            # - name: Videos
+            #   url: courses/
+            # - name: Tags
+            #   url: tags/
+            # - name: Archive
+            #   url: archive/
+            # - name: Blog
+            #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
+
+    socialIcons:
+        - name: CV
+          url: cv.pdf
+        - name: Email
+          url: mailto:kaimary1221@163.com
+        # - name: Zoom
+        #   url: https://www.zoom.us/my/igelfeld
+        # - name: Location
+        #   url: location/
+        # - name: Office Hours
+        #   url: officehours/
+        - name: Google Scholar
+          url: https://scholar.google.com/citations?user=pWJ1HqQAAAAJ&hl=en
+        - name: GitHub
+          url: https://github.com/kaimary
+        # - name: Substack
+        #   url: https://pmichaillat.substack.com
+        # - name: YouTube
+        #   url: https://www.youtube.com/@alexandermccallsmithoffici9000
+        - name: X
+          url: https://x.com/kaimary12211
+        - name: LinkedIn
+          url: https://www.linkedin.com/in/yuankai-fan-138061bb
+
+    assets:
+        disableScrollBarStyle: true
+    cover:
+        hiddenInList: false
+        hiddenInSingle: true
+    label:
+      text: "Yuankai Fan"
+      icon: favicon.ico
+      iconHeight: 18
+
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

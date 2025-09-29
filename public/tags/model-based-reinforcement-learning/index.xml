@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Model-Based Reinforcement Learning on Yuankai Fan</title>
+    <link>http://localhost:1313/tags/model-based-reinforcement-learning/</link>
+    <description>Recent content in Model-Based Reinforcement Learning on Yuankai Fan</description>
+    <generator>Hugo -- 0.136.5</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/model-based-reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Grounding Natural Language to SQL Translation with Data-Based Self-Explanations</title>
+      <link>http://localhost:1313/papers/paper1/</link>
+      <pubDate>Tue, 22 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/papers/paper1/</guid>
+      <description>We propose a long-horizon background-planning algorithm for online RL. This used subgoal models (abstract in state &amp;amp; time) for faster long-term decision making &amp;amp; smarter value propagation.</description>
+    </item>
+  </channel>
+</rss>
