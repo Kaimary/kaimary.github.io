@@ -4,7 +4,7 @@ venue: "KBS 2024"
 date: 2024-12-20
 lastmod: 2024-12-20
 tags: ["Confidence Estimation", "Table Question Answering", "Natural Language Interface"]
-author: ["Yuankai Fan*", "Tonghui Ren", "Can Huang", "Beini Zheng", "Yinan Jing", "Zhenying He", "Jinbao Li", "Jianxin Li"]
+author: ["Yuankai Fan", "Tonghui Ren", "Can Huang", "Beini Zheng", "Yinan Jing", "Zhenying He", "Jinbao Li", "Jianxin Li*"]
 description: "" 
 summary: "We propose a confidence-based knowledge integration framework that uses a two-stage deep-learning-based ranking technique to mitigate the low-confidence problem commonly associated with Seq2seq models for TableQA."
 cover:
@@ -13,7 +13,7 @@ cover:
     relative: false
 editPost:
     URL: "https://www.sciencedirect.com/journal/knowledge-based-systems"
-    Text: "KBS 2025"
+    Text: "KBS 2024"
 
 ---
 
@@ -41,10 +41,6 @@ Recent advancements in TableQA leverage sequence-to-sequence (Seq2seq) deep lear
 ##### Citation
 
 Fan Y., Ren T., Huang C., Zheng B., Jing Y., He Z., Li J., Li J. (2024) "A Confidence-based Knowledge Integration Framework for Cross-Domain Table Question Answering", *Knowl. Based Syst* pages 112718.
-
-
-Yuankai Fan, Tonghui Ren, Can Huang, Beini Zheng, Yinan Jing, Zhenying He, Jinbao Li, Jianxin Li:
-A confidence-based knowledge integration framework for cross-domain table question answering. Knowl. Based Syst. Volume 306: 112718 (2024)
 
 ```BibTeX
 @article{ckif2024,
