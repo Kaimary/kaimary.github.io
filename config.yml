@@ -60,7 +60,7 @@ params:
           imageWidth: 200
           imageHeight: 200
           buttons:
-            - name: Publications
+            - name: "Selected Publications"
               url: papers/
             # - name: MSc Thesis
             #   url: theses/msc_thesis.pdf
