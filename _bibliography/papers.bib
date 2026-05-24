@@ -103,7 +103,7 @@
   abbr = {ICDE},
   bibtex_show = {true},
   author = {Yuankai Fan and Tonghui Ren and Zhenying He and X. Sean Wang and Ye Zhang and Xingang Li},
-  title = {{GenSql}: A Generative Natural Language Interface to Database Systems},
+  title = {{GenSQL}: A Generative Natural Language Interface to Database Systems},
   booktitle = {International Conference on Data Engineering},
   pages = {3603--3606},
   month = apr,
@@ -112,4 +112,119 @@
   preview = {gensql-icde-2023.png},
   pdf = {gar-icde-2023-demo.pdf},
   abstract = {GenSql is a generative natural language interface to database systems that demonstrates natural language to SQL translation capabilities for interactive database access.}
+}
+
+@article{red2025,
+  selected = {true},
+  abbr = {VLDB},
+  bibtex_show = {true},
+  author       = {Tonghui Ren and Chen Ke and Yuankai Fan and Yinan Jing and Zhenying He and Kai Zhang and X. Sean Wang},
+  title        = {The Power of Constraints in Natural Language to {SQL} Translation},
+  journal      = {Proc. {VLDB} Endow.},
+  volume       = {18},
+  number       = {7},
+  pages        = {2097--2111},
+  year         = {2025},
+  doi          = {10.14778/3734839.3734847},
+  pdf = {red-vldb-2025.pdf},
+  preview = {red-vldb-2025.png},
+  abstract = {Current large language model (LLM)-based Natural Language to SQL (NL2SQL) approaches typically rely on the database schema and partial data values for the translation. These approaches are unable to use sufficient data for accurate database understanding due to limitations in data selection methods, and they cannot input the entire database due to the limited context window sizes of LLMs. This insufficient data integration may result in an incomplete understanding of the database, leading to semantically incorrect SQL generation. In this paper, we introduce REDSQL, a novel plug-and-play framework that refines the predicted SQL by utilizing the entire database in the refinement process.}
+}
+
+@inproceedings{purple2024,
+  selected = {false},
+  abbr = {ICDE},
+  bibtex_show = {true},
+  author       = {Tonghui Ren and Yuankai Fan and Zhenying He and Ren Huang and Jiaqi Dai and Can Huang and Yinan Jing and Kai Zhang and Yifan Yang and X. Sean Wang},
+  title        = {{PURPLE:} Making a Large Language Model a Better {SQL} Writer},
+  booktitle    = {International Conference on Data Engineering},
+  pages        = {15--28},
+  publisher    = {{IEEE}},
+  year         = {2024},
+  doi          = {10.1109/ICDE60146.2024.00009},
+  pdf = {purple-icde-2024.pdf},
+  preview = {purple-icde-2024.png},
+  abstract = {Large Language Model (LLM) techniques play an increasingly important role in Natural Language to SQL (NL2SQL) translation. LLMs trained by extensive corpora have strong natural language understanding and basic SQL generation abilities without additional tuning speciﬁc to NL2SQL tasks. Existing LLMs-based NL2SQL approaches try to improve the translation by enhancing the LLMs with an emphasis on user intention understanding. However, LLMs sometimes fail to generate appropriate SQL due to their lack of knowledge in organizing complex logical operator composition. A promising method is to input the LLMs with demonstrations, which include known NL2SQL translations from various databases. LLMs can learn to organize operator compositions from the input demonstrations for the given task. In this paper, we propose PURPLE, which improves accuracy by retrieving demonstrations containing the requisite logical operator composition for the NL2SQL task on hand, thereby guiding LLMs to produce better SQL translation.}
+}
+
+@inproceedings{gar++2024,
+  selected = {false},
+  abbr = {APWeb},
+  bibtex_show = {true},
+  author       = {Yuankai Fan and Can Huang and Tonghui Ren and Zhenying He and X. Sean Wang and Xianglian Wu and Yue Wang and Jiaming Li and Yifan Yang},
+  title        = {GAR++: Natural Language to {SQL} Translation with Efficient Generate-and-Rank},
+  booktitle    = {Asia-Pacific Web (APWeb) and Web-Age Information Management (WAIM) Joint International Conference on Web and Big Data},
+  pages        = {411--427},
+  publisher    = {Springer},
+  year         = {2024},
+  doi          = {10.1007/978-981-97-7238-4\_26},
+  preview = {gar++-apweb-2024.png},
+  pdf = {gar++-apweb-2024.pdf},
+  abstract = {Gar++ extends the existing generate-and-rank approach for a more eﬃcient generation and robust ranking procedure.}
+}
+
+@inproceedings{iknowsql2023,
+  selected = {false},
+  abbr = {WISE},
+  bibtex_show = {true},
+  author       = {Yuankai Fan and Tonghui Ren and Dianjun Guo and Zhigang Zhao and Zhenying He and X. Sean Wang and Yu Wang and Tao Sui},
+  title        = {An Integrated Interactive Framework for Natural Language to {SQL} Translation},
+  booktitle    = {International Conference on Web Information Systems Engineering},
+  pages        = {643--658},
+  publisher    = {Springer},
+  year         = {2023},
+  doi          = {10.1007/978-981-99-7254-8\_50},
+  preview = {iknowsql-wise-2023.png},
+  pdf = {iknowsql-wise-2023.pdf},
+  abstract = {An integrated interactive framework for natural language to SQL translation.}
+}
+
+@article{chen2022,
+  selected = {false},
+  abbr = {KBS},
+  bibtex_show = {true},
+  author       = {Haoyuan Chen and Fei Ye and Yuankai Fan and Zhenying He and Yinan Jing and Kai Zhang and X. Sean Wang},
+  title        = {Staged query graph generation based on answer type for question answering over knowledge base},
+  journal      = {Knowl. Based Syst.},
+  volume       = {253},
+  pages        = {109576},
+  year         = {2022},
+  doi          = {10.1016/J.KNOSYS.2022.109576},
+  pdf = {staged-kbs-2022.pdf},
+  preview = {staged-kbs-2022.png},
+  abstract = {Question answering over knowledge base (KBQA) enables users to query over the knowledge base without the need to know the details. A range of existing KBQA approaches treats the entities mentioned in the given question as the starting point to find the answers. While helpful in achieving improvements on the existing benchmarks, they have some limitations on the strategy of query graph generation, which creates too many candidate queries and makes it hard to select the best-matching one to get the answer. We propose a staged query graph generation approach based on the answer type, which exploits the correlation between questions and answer types to reduce the size of the candidate set and further improve the performance.}
+}
+
+@article{zebra2023,
+  selected = {false},
+  abbr = {WWWJ},
+  bibtex_show = {true},
+  author       = {Tianhuan Yu and Zhenying He and Zhihui Yang and Fei Ye and Yuankai Fan and Yinan Jing and Kai Zhang and X. Sean Wang},
+  title        = {Zebra: {A} novel method for optimizing text classification query in overload scenario},
+  journal    = {World Wide Web Journal},
+  volume       = {26},
+  number       = {3},
+  pages        = {905--931},
+  year         = {2023},
+  doi          = {10.1007/S11280-022-01061-Y},
+  pdf = {zebra-www-2023.pdf},
+  preview = {zebra-wwwj-2023.png},
+  abstract = {Zebra focuses on the query with text classification on streaming data. We propose a novel method called Zebra with progressive pipelines to optimize the overload query situations.}
+}
+
+@article{trinity2025,
+  selected = {true},
+  abbr = {arxiv},
+  bibtex_show = {true},
+  author       = {Yuankai Fan and Qizhen Weng and Xuelong Li},
+  title        = {Computation-Bandwidth-Memory Trade-offs: {A} Unified Paradigm for {AI} Infrastructure},
+  journal      = {CoRR},
+  volume       = {abs/2601.11577},
+  year         = {2025},
+  doi          = {10.48550/ARXIV.2601.11577},
+  eprinttype   = {arXiv},
+  eprint       = {2601.11577},
+  pdf = {trinity-arxiv-2025},
+  preview = {trinity-arxiv-2025.png},
+  abstract = {Large-scale artificial intelligence (AI) models are fundamentally transforming industries and redefining the paradigm of human–machine collaboration. While the technological revolution signals a new era of machine intelligence, the continued scaling of these models has exposed significant limitations in contemporary hardware architectures, manifesting as constraints on computational efficiency, interconnection bandwidth, and memory capacity. These three dimensions are inseparably intertwined, such that advances along any single axis often exacerbate bottlenecks in the others, rendering isolated optimizations increasingly ineffective. Achieving an optimal balance among them to maximize system efficiency therefore remains a central challenge in the design of scalable AI systems. To address this challenge, we introduce Computation-Bandwidth-Memory Trade-offs, termed the AI Trinity, a unified paradigm that positions computation, bandwidth, and memory as coequal pillars for next-generation AI infrastructure. At its core, AI Trinity enables a dynamic flow of resources across these pillars, transcending single-resource bottlenecks and adapting to diverse scenarios, thereby optimizing overall system performance to its maximum potential. Within this framework, AI Trinity identifies three fundamental trade-offs: (1) More Computation→Less Bandwidth, wherein computational resources are exploited to reduce data transmission under limited bandwidth conditions, (2) More Bandwidth→Less Memory, which exploits abundant communication capacity to populate or refresh memory when local storage resources are constrained, and (3) More Memory→Less Computation, whereby storage capacity are utilized to mitigate redundant computation when computational costs are prohibitive.}
 }

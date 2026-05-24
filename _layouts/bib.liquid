@@ -1,12 +1,18 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-      {%- assign publication_category = 'reasoning' -%}
-      {%- for mapped_category in site.publication_category_map -%}
-        {%- if mapped_category[0] == entry.key -%}
-          {%- assign publication_category = mapped_category[1] -%}
-        {%- endif -%}
-      {%- endfor -%}
+      {%- assign publication_category = entry.category -%}
+      {%- if publication_category == blank -%}
+        {%- for mapped_category in site.publication_category_map -%}
+          {%- if mapped_category[0] == entry.key -%}
+            {%- assign publication_category = mapped_category[1] -%}
+            {%- break -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- endif -%}
+      {%- if publication_category == blank -%}
+        {%- assign publication_category = 'uncategorized' -%}
+      {%- endif -%}
       <div class="row publication-entry" data-publication-category="{{ publication_category }}">
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
         {%- if entry.preview -%}

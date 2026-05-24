@@ -3,12 +3,12 @@ layout: page
 title: Publications
 permalink: /publications/
 description:
-years: [2025,2024,2023]
+years: [2025,2024,2023,2022]
 publication_categories:
   - label: All
     slug: all
-  - label: Cluster Management
-    slug: cluster-management
+  - label: Infrastructure
+    slug: infra
   - label: Database
     slug: db-systems
 nav: true
@@ -32,15 +32,21 @@ nav_order: 4
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    const filters = document.querySelectorAll(".publication-filter");
-    const yearLists = document.querySelectorAll(".publications ol.bibliography");
+    const filters = Array.from(document.querySelectorAll(".publication-filter"));
+    const yearLists = Array.from(document.querySelectorAll(".publications ol.bibliography"));
+
+    function yearItems(list) {
+      return Array.from(list.children).filter(function (node) {
+        return node.tagName === "LI";
+      });
+    }
 
     function applyPublicationFilter(category) {
       yearLists.forEach(function (list) {
         let visibleCount = 0;
-        list.querySelectorAll(":scope > li").forEach(function (item) {
+        yearItems(list).forEach(function (item) {
           const entry = item.querySelector(".publication-entry");
-          const entryCategory = entry ? entry.dataset.publicationCategory : "reasoning";
+          const entryCategory = entry && entry.dataset.publicationCategory ? entry.dataset.publicationCategory : "uncategorized";
           const visible = category === "all" || entryCategory === category;
           item.hidden = !visible;
           if (visible) visibleCount += 1;
@@ -63,5 +69,10 @@ nav_order: 4
         applyPublicationFilter(button.dataset.publicationFilter);
       });
     });
+
+    const activeFilter = document.querySelector(".publication-filter.active");
+    if (activeFilter) {
+      applyPublicationFilter(activeFilter.dataset.publicationFilter);
+    }
   });
 </script>

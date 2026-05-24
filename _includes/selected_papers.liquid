@@ -1,3 +1,7 @@
 <div class="publications">
-  {% bibliography --group_by none --query @*[selected=true]* %}
+  {% assign publications_page = site.pages | where: "permalink", "/publications/" | first %}
+  {% assign selected_years = publications_page.years %}
+  {% for year in selected_years %}
+    {% bibliography -f papers --group_by none -q @*[selected=true && year={{ year }}]* %}
+  {% endfor %}
 </div>
