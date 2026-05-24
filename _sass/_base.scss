@@ -43,7 +43,17 @@ table {
         .post-title {
           margin-left: calc(30% + 1rem);
         }
+
+        .desc {
+          margin-left: calc(30% + 1rem);
+        }
       }
+    }
+
+    .desc {
+      font-size: 0.80rem;
+      margin-top: 0.35rem;
+      margin-bottom: 1.25rem;
     }
   }
 
@@ -53,12 +63,6 @@ table {
 
   .about-content > p:first-child {
     margin-top: 0;
-  }
-
-  .about-content .intro-line {
-    font-size: 0.80rem;
-    margin-top: -0.40rem;
-    margin-bottom: 1.25rem;
   }
 
   h2.openings-heading,

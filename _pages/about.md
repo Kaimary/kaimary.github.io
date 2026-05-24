@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle:
+subtitle: 'From DB to AI Systems. Researcher. Ph.D./Postdoc in CS from <a href="https://ai.fudan.edu.cn">FDU</a>.'
 
 profile:
   align: left
@@ -23,8 +23,6 @@ social: false  # includes social icons at the bottom of the page
 ---
 
 <!-- Welcome to my Website! I am an **Associate Professor** at [Dipartimento di Informatica](http://www.di.uniroma1.it/), Universit&agrave; di Roma, La Sapienza, where I coordinate the [AuRALab](https://auralabsapienza.github.io/). -->
-<p class="intro-line">From DB to AI Systems. Researcher. Ph.D./Postdoc in CS from <a href="https://ai.fudan.edu.cn">FDU</a>.</p>
-
 Hi👋 I am currently a **Senior Researcher** in AI Infrastructure Research Center at the Institute of Artificial Intelligence ([TeleAI](https://www.linkedin.com/company/the-institute-of-artificial-intelligence-china-telecom-teleai/)), China Telecom. My research lies at the intersection of AI/Data Infra, MLSys, and DB, with a particular focus on **efficient training & inference for large-scale models** (including vision-language models, generative diffusion models, and unified multimodal models), **efficient multimodal data processing & mangement**, and **distributed storage (caching) systems**.
 <!-- My research interests regard many aspects of **Formal Methods for Artificial Intelligence**. In particular, I work on verification and synthesis for multi-agent systems, knowledge representation, strategic reasoning, logics, games, and automata theory. -->
 
