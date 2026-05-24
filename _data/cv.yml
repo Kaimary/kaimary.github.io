@@ -1,0 +1,82 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Yuankai Fan
+    # - name: Languages
+    #   value: Chinese (native), English (professional proficiency)
+    - name: URL
+      value: https://kaimary.github.io/
+    - name: Wechat
+      value: kaimary
+    - name: Email
+      value: kaimary1221@gmail.com
+      link: mailto:kaimary1221@gmail.com
+      
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Senior Researcher
+      institution: AI Infrastructure Research Center, Institute of Artificial Intelligence (TeleAI), China Telecom
+      year: 2024 - Present
+    
+    - title: Postdoctoral Research Assistant
+      institution: Department of Computer Science and Technology, Fudan University
+      year: 2023 - 2024
+    
+    - title: Senior Engineer
+      institution: Microsoft
+      year: 2016-2023
+
+    - title: Software Engineer
+      institution: Dell EMC<sup>2</sup>
+      year: 2015-2016
+
+    - title: Software Engineer
+      institution: SuperMap DIST Technology
+      year: 2013 - 2015
+
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Computer Science
+      institution: Fudan University
+      year: 2023
+      thesis title: Research on Generative Translation Method of Natural Language Query to Database
+      supervisor: Prof. X. Sean Wang
+    - title: Bs in Engineering
+      institution: Yanshan Univeristy
+      year: 2013
+
+# - title: Awards
+#   type: time_table
+#   contents:
+#     - title: Marco Somalvico 2023 Award
+#       institution: Italian Association for Artificial Intelligence
+#       year: 2023
+#       description: Best under 37 Italian researcher who autonomously contributed to advance the state-of-the-art in Artificial Intelligence
+#     - title: 3+2 Award
+#       institution: Italian Association for Logics and its Applications
+#       year: 2012
+#       description: Best Master Thesis in logics for the Academic Year 2011-2012
+      
+# - title: Selected Talks
+#   type: nested_list
+#   contents:
+#     - title: From Synthesis to Rational Synthesis A Logic-Based Approach to Multi-Agent Systems.
+#       items:
+#         - 25/05/2023 Seminar Talk, University of Southampton
+#         - 14/11/2022 <a href:"https://sites.google.com/diag.uniroma1.it/loc3-seminar-sapienza/home-page">Sapienza LoC3 Seminar</a>, Sapienza University of Rome
+#         - 02/09/2022 LMAS Workshop 2022, IRIT – Université Toulouse 1 Capitole
+#         - 10/04/2019 Formal Methods for Artificial Intelligence Seminars, Imperial College London
+#         - 29/03/2018 Seminar Talk, University of Naples ‘Federico II’
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Hobbies:</u> Basketball

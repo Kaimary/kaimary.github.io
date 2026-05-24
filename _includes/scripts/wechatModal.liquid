@@ -1,0 +1,25 @@
+{% if site.wechat_qr %}
+  <!-- WeChat Modal -->
+  <div id="WeChatMod" class="wechat-modal" aria-hidden="true">
+    <img src="{{ site.wechat_qr | prepend: 'assets/img/' | relative_url }}" alt="WeChat QR" id="WeChatQR">
+  </div>
+
+  <script>
+    var wechatModal = document.getElementById('WeChatMod');
+    var wechatBtns = document.querySelectorAll('.WeChatBtn');
+
+    wechatBtns.forEach(function (wechatBtn) {
+      wechatBtn.addEventListener('click', function () {
+        wechatModal.style.display = 'block';
+        wechatModal.setAttribute('aria-hidden', 'false');
+      });
+    });
+
+    window.addEventListener('click', function (event) {
+      if (event.target == wechatModal) {
+        wechatModal.style.display = 'none';
+        wechatModal.setAttribute('aria-hidden', 'true');
+      }
+    });
+  </script>
+{% endif %}

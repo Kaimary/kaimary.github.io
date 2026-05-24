@@ -1,0 +1,333 @@
+{
+  "basics": {
+    "name": "Yuankai Fan",
+    "label": "",
+    "image": "",
+    "email": "kaimary1221@gmail.com",
+    "url": "https://kaimary.github.io/",
+    "wechat": "kaimary",
+    "summary": "",
+    "location": {
+      "address": "Viale Regina Elena, 295",
+      "postalCode": "00161",
+      "city": "Roma",
+      "countryCode": "Italy",
+      "region": "Italy"
+    }
+  },
+  "languages": [
+    {
+      "language": "Italian",
+      "fluency": "Native",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Professional Proficiency",
+      "icon": ""
+    }
+  ],
+  "work": [
+    {
+      "name": "SuperMap DIST Technology",
+      "position": "Software Engineer",
+      "url": "https://www.dist.com.cn",
+      "startDate": "2013-07",
+      "endDate": "2015-05",
+      "summary": ""
+    },
+    {
+      "name": "Dell EMC<sup>2</sup>",
+      "position": "Software Engineer",
+      "url": "https://www.dell.com/en-ae/lp",
+      "startDate": "2015-06",
+      "endDate": "2016-05",
+      "summary": ""
+    },
+    {
+      "name": "Microsoft (China)",
+      "position": "Senior Engineer",
+      "url": "https://www.microsoft.com/en-us/aprd/aboutus/team-cai",
+      "startDate": "2016-05",
+      "endDate": "2023-02",
+      "summary": ""
+    },
+    {
+      "name": "Department of Computer Science and Technology, Fudan University",
+      "position": "Postdoctoral Research Assistant",
+      "url": "https://cs.fudan.edu.cn",
+      "startDate": "2023-01",
+      "endDate": "2024-11",
+      "summary": ""
+    },
+    {
+      "name": "AI Infrastructure Research Center, Institute of Artificial Intelligence (TeleAI), China Telecom",
+      "position": "Senior Researcher",
+      "url": "https://www.linkedin.com/authwall?trk=bf&trkInfo=AQEdStkm2wNOIAAAAZ5YQDNY15du__jAForHdYSr_JfMON_6TPQ4X3M2wtZS3uJMCCDEUBd6C9cH-DBzEXAd8XTtNA7ZWnlm3LLLRDv0S88jmL5fqlA4miMJ3gjXlVXivqqUGEI=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fthe-institute-of-artificial-intelligence-china-telecom-teleai%2F",
+      "startDate": "2024-11",
+      "endDate": "Present",
+      "summary": ""
+    }
+  ],
+  // "awards": [
+  //   {
+  //     "title": "Special Mention for Best Young Researcher Award in TCS",
+  //     "date": "2025-08-30",
+  //     "awarder": "IC-EATCS: Italian Chapter of the European Association for Theoretical Computer Science",
+  //     "url": "https://www.eatcs.org/index.php/italian-chapter-awards",
+  //     "summary": "The prize is awarded to the 'best Young Italian researcher in Theoretical Computer Science.'"
+  //   },
+  //   {
+  //     "title": "Young Researcher 'Marco Somalvico' Award",
+  //     "date": "2023-11-08",
+  //     "awarder": "AIxIA: Italian Association for Artificial Intelligence",
+  //     "url": "https://aixia.it/premi/premio-intelligenza-artificiale-marco-somalvico-biennale/",
+  //     "summary": "The prize is awarded to the 'best Young Italian researcher who autonomously contributed to advance the state-of-the-art in Artificial Intelligence.'"
+  //   },
+  //   {
+  //     "title": "3+2 Award",
+  //     "date": "2012-05-25",
+  //     "awarder": "AILA: Italian Association for Logics and its Applications",
+  //     "url": "https://www.ailalogica.it/pdf/premi/relazione3+2-2012.pdf",
+  //     "summary": "The prize is awarded to the 'best master theses in logics in the Academic Year 2011-12.'"
+  //   }
+  // ],
+  "education": [
+    {
+      "institution": "Department of Computer Science and Technology, Fudan University",
+      "location": "Shanghai, China",
+      "url": "",
+      "studyType": "PhD in Computer Science (Master's & PhD Program)",
+      "startDate": "2017",
+      "endDate": "2023",
+      "score": ""
+    },
+    {
+      "institution": "Department of Computer Science and Technology, Yanshan University",
+      "location": "Hebei, China",
+      "url": "",
+      "studyType": "Bachelor in Engineering",
+      "startDate": "2009",
+      "endDate": "2013",
+      "score": ""
+    }
+  ],
+  // "service": [
+  //   {
+  //     "name": "Associate Editor",
+  //     "conference": [
+  //       {
+  //         "title": "ACM AI Letters, ",
+  //         "url": "https://dl.acm.org/journal/ailet"
+  //       },
+  //       {
+  //         "title": "Intelligenza Artificiale.",
+  //         "url": "https://aixia.it/en/rivista/"
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     "name": "Topic Editor",
+  //     "conference": [
+  //       {
+  //         "title": "Verifying Autonomy: Formal Methods for Reliable Decision-Making",
+  //         "url": "https://www.frontiersin.org/research-topics/72722/verifying-autonomy-formal-methods-for-reliable-decision-making"
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     "name": "Chair",
+  //     "conference": [
+  //       {
+  //         "title": "RADICAL-23, ",
+  //         "url": "https://sites.google.com/site/radicalconcur/previous-editions/radical-2023"
+  //       },
+  //       {
+  //         "title": "LAMAS&SR-21, ",
+  //         "url": "https://lamassr.github.io/editions/2021"
+  //       },
+  //       {
+  //         "title": "RADICAL-19.",
+  //         "url": "https://sites.google.com/site/radicalconcur/previous-editions/radical-2019"
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     "name": "Proceedings Chair",
+  //     "conference": [
+  //       {
+  //         "title": "ICPM-23.",
+  //         "url": "https://icpmconference.org/2023"
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     "name": "Senior Programme Committee",
+  //     "conference": [
+  //       {
+  //         "title": "AAMAS-26, ",
+  //         "url": "https://cyprusconferences.org/aamas2026/"
+  //       },
+  //       {
+  //         "title": "ECAI-25, ",
+  //         "url": "https://www.ecai2025.eu/"
+  //       },
+  //       {
+  //         "title": "AAMAS-25, ",
+  //         "url": "https://aamas2025.org/"
+  //       },
+  //       {
+  //         "title": "ECAI-24, ",
+  //         "url": "https://www.ecai2024.eu/"
+  //       },
+  //       {
+  //         "title": "AAMAS-23, ",
+  //         "url": "https://aamas2023.soton.ac.uk/"
+  //       },
+  //       {
+  //         "title": "IJCAI-21.",
+  //         "url": "https://ijcai-21.org"
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     "name": "Programme Committee",
+
+  //     "conference": [
+  //       {
+  //         "title": "RADICAL-26, ",
+  //         "url": "https://sites.google.com/site/radicalconcur/Home"
+  //       },
+  //       {
+  //         "title": "RADICAL-25, ",
+  //         "url": "https://sites.google.com/site/radicalconcur/previous-editions/radical-2025"
+  //       },
+  //       {
+  //         "title": "IJCAI-25, ",
+  //         "url": "https://2025.ijcai.org"
+  //       },
+  //       {
+  //         "title": "AAMAS-24, ",
+  //         "url": "https://www.aamas2024-conference.auckland.ac.nz"
+  //       },
+  //       {
+  //         "title": "IJCAI-24, ",
+  //         "url": "https://ijcai24.org"
+  //       },
+  //       {
+  //         "title": "ECAI-23, ",
+  //         "url": "https://www.ecai2023.eu/"
+  //       },
+  //       {
+  //         "title": "IJCAI-23, ",
+  //         "url": "https://ijcai-23.org/"
+  //       },
+  //       {
+  //         "title": "LAMAS&SR-23, ",
+  //         "url": "https://vadimmalvone.github.io/lamas-sr-2023"
+  //       },
+  //       {
+  //         "title": "KR-23, ",
+  //         "url": "https://kr.org/KR2023"
+  //       },
+  //       {
+  //         "title": "AAMAS-22, ",
+  //         "url": "https://aamas2022-conference.auckland.ac.nz"
+  //       },
+  //       {
+  //         "title": "AAAI-22, ",
+  //         "url": "https://aaai.org/Conferences/AAAI-22"
+  //       },
+  //       {
+  //         "title": "AAAI-21, ",
+  //         "url": "https://aaai.org/Conferences/AAAI-21"
+  //       },
+  //       {
+  //         "title": "AAMAS-21, ",
+  //         "url": "https://aamas2021.soton.ac.uk"
+  //       },
+  //       {
+  //         "title": "IJCAI-20, ",
+  //         "url": "https://ijcai20.org"
+  //       },
+  //       {
+  //         "title": "EUMAS-20, ",
+  //         "url": "https://eumas2020.csd.auth.gr/eumas2020"
+  //       },
+  //       {
+  //         "title": "AAMAS-20, ",
+  //         "url": "https://aamas2020.conference.auckland.ac.nz"
+  //       },
+  //       {
+  //         "title": "ECAI-20, ",
+  //         "url": "http://ecai2020.eu"
+  //       },
+  //       {
+  //         "title": "IJCAI-19, ",
+  //         "url": "https://ijcai19.org"
+  //       },
+  //       {
+  //         "title": "AAMAS-19, ",
+  //         "url": "http://aamas2019.encs.concordia.ca"
+  //       },
+  //       {
+  //         "title": "EUMAS-18, ",
+  //         "url": "https://eumas2018.w.uib.no"
+  //       },
+  //       {
+  //         "title": "IJCAI-18, ",
+  //         "url": "https://ijcai-18.org"
+  //       },
+  //       {
+  //         "title": "AAMAS-18, ",
+  //         "url": "http://celweb.vuse.vanderbilt.edu/aamas18/home"
+  //       },
+  //       {
+  //         "title": "AAAI-18, ",
+  //         "url": "http://aaai.org/Conferences/AAAI/aaai18.php"
+  //       },
+  //       {
+  //         "title": "EUMAS-17, ",
+  //         "url": "https://eumas2017.ibisc.univ-evry.fr"
+  //       },
+  //       {
+  //         "title": "SR-17, ",
+  //         "url": "http://sr2017.csc.liv.ac.uk"
+  //       },
+  //       {
+  //         "title": "CILC-17, ",
+  //         "url": "http://cilc2017.unina.it/"
+  //       },
+  //       {
+  //         "title": "IJCAI-17, ",
+  //         "url": "https://ijcai-17.org"
+  //       },
+  //       {
+  //         "title": "IJCAI-16, ",
+  //         "url": "http://ijcai-16.org"
+  //       },
+  //       {
+  //         "title": "AAMAS-16.",
+  //         "url": "https://sis.smu.edu.sg/aamas2016/"
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     "name": "Organizing Committee",
+  //     "conference": [
+  //       {
+  //         "title": "SR-15, ",
+  //         "url": "https://sites.google.com/site/sr2015homepage"
+  //       },
+  //       {
+  //         "title": "SR-13, ",
+  //         "url": "http://www.strategicreasoning.net/editions/2013/"
+  //       },
+  //       {
+  //         "title": "GAMES-12.",
+  //         "url": "(http://www.games.unina.it"
+  //       }
+  //     ]
+  //   }
+  // ]
+}
