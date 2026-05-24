@@ -419,6 +419,12 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
+
+  @media (max-width: 575.98px) {
+    .navbar-brand.social {
+      display: none;
+    }
+  }
 }
 
 .navbar-toggler {

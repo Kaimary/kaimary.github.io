@@ -23,7 +23,14 @@ body.sticky-bottom-footer {
 }
 
 .container {
-  max-width: $max-content-width;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: $max-content-width;
+  }
 }
 
 // Profile
