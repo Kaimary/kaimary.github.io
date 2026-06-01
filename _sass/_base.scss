@@ -67,6 +67,7 @@ table {
 
   h2.openings-heading,
   h2.news-heading,
+  h2.under-review-heading,
   h2.selected-publications-heading {
     font-size: 32px;
     line-height: 1.2;
@@ -102,6 +103,36 @@ table {
         line-height: 1.5;
       }
     }
+  }
+
+  .under-review-list {
+    margin-bottom: 2rem;
+  }
+
+  .under-review-entry {
+    border-left: 3px solid var(--global-theme-color);
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+  }
+
+  .under-review-title,
+  .under-review-authors,
+  .under-review-status,
+  .under-review-note,
+  .under-review-placeholder {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 0.2rem;
+  }
+
+  .under-review-title {
+    font-weight: 600;
+  }
+
+  .under-review-status,
+  .under-review-note,
+  .under-review-placeholder {
+    color: var(--global-text-color-light);
   }
 
   .homepage-last-update {

@@ -1,0 +1,21 @@
+{% assign papers = page.under_review_papers %}
+<div class="under-review-list">
+  {% if papers and papers.size > 0 %}
+    {% for paper in papers %}
+      <div class="under-review-entry">
+        <p class="under-review-title">{{ paper.title }}</p>
+        {% if paper.authors %}
+          <p class="under-review-authors">{{ paper.authors }}</p>
+        {% endif %}
+        <p class="under-review-status">{{ paper.status | default: 'Manuscript under review.' }}</p>
+        {% if paper.note %}
+          <p class="under-review-note">{{ paper.note }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  {% else %}
+    <p class="under-review-placeholder">
+      Entries can be listed here as: <strong>Title</strong>. Authors. <em>Manuscript under review.</em>
+    </p>
+  {% endif %}
+</div>

@@ -71,6 +71,12 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Under review -->
+    {% if page.under_review_section or page.under_review_papers %}
+      <h2 class="under-review-heading">Working Papers</h2>
+      {% include under_review.liquid %}
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2 class="selected-publications-heading">
