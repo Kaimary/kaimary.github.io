@@ -23,7 +23,7 @@ under_review_papers:
   - title: "Arachne: Orchestrating Cascades for Efficient Text-to-Video Model Training"
     authors: "Peng Yu, <u>Yuankai Fan</u>*, Yang Qiu, Tian Li, Bihuan Chen, Yin Chen, Qizhen Weng*"
     status: "Manuscript under review."
-    note: "Submitted to SC 2027."
+    note: "Submitted to SC 2026."
   - title: "m4: Rethinking Multi-Modal Data Preprocessing as Multi-Model Inference Serving Optimization"
     authors: "<u>Yuankai Fan</u>, Yiqian Xu, Chaoyi Xie, Yanbo Wang, Qizhen Weng, Xuelong Li*"
     status: "Manuscript under review."
