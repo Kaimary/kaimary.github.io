@@ -20,14 +20,14 @@ news: true  # includes a list of news items
 openings: true
 under_review_section: true
 under_review_papers:
+  - title: "m4: Rethinking Multi-Modal Data Preprocessing as Multi-Model Inference Serving Optimization"
+    authors: "<u>Yuankai Fan</u>, Yiqian Xu, Chaoyi Xie, Yanbo Wang, Xuelong Li*"
+    status: "Manuscript under review."
+    note: "Submitted to TPAMI 2026."
   - title: "Arachne: Orchestrating Cascades for Efficient Text-to-Video Model Training"
     authors: "Peng Yu, <u>Yuankai Fan</u>*, Yang Qiu, Tian Li, Bihuan Chen, Yin Chen, Qizhen Weng*"
     status: "Manuscript under review."
     note: "Submitted to SC 2026."
-  - title: "m4: Rethinking Multi-Modal Data Preprocessing as Multi-Model Inference Serving Optimization"
-    authors: "<u>Yuankai Fan</u>, Yiqian Xu, Chaoyi Xie, Yanbo Wang, Qizhen Weng, Xuelong Li*"
-    status: "Manuscript under review."
-    note: "Submitted to TPAMI 2026."
   - title: "Beyond Binary: Turning Partial Success into Dense Verifiable Rewards for Reinforcement Learning in Code Generation"
     authors: "Longwen Wang, Yirui Liu, Xuaner Wu, Xiaohui Hu, <u>Yuankai Fan</u>, Kaidong Yu, Qizhen Weng, Wei Xi, Xuelong Li"
     status: "Manuscript under review."
