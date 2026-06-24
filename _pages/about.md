@@ -20,6 +20,10 @@ news: true  # includes a list of news items
 openings: true
 under_review_section: true
 under_review_papers:
+  - title: "N2s&#770: A Testing Framework for Trustworthy NL2SQL Translations"
+    authors: "<u>Yuankai Fan</u>, Jiawei Shao, Zhenying He, X. Sean Wang, Xuelong Li*"
+    status: "Manuscript under review."
+    note: "Submitted to TPAMI 2026."
   - title: "m4: Rethinking Multi-Modal Data Preprocessing as Multi-Model Inference Serving Optimization"
     authors: "<u>Yuankai Fan</u>, Yiqian Xu, Chaoyi Xie, Yanbo Wang, Xuelong Li*"
     status: "Manuscript under review."
