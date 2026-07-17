@@ -20,6 +20,10 @@ news: true  # includes a list of news items
 openings: true
 under_review_section: true
 under_review_papers:
+  - title: "When Similarity Fails: Reliable Cache Reuse for Text-to-Image Diffusion Models"
+    authors: "Gaofan Zhang, <u>Yuankai Fan</u>, Bingye Zhou, Yichen Zhong, Jiawei Shao, Xuelong Li*"
+    status: "Manuscript under review."
+    note: "Submitted to AAAI 2027."
   - title: "N2s&#770: A Testing Framework for Trustworthy NL2SQL Translations"
     authors: "<u>Yuankai Fan</u>, Jiawei Shao, Zhenying He, X. Sean Wang, Xuelong Li*"
     status: "Manuscript under review."
