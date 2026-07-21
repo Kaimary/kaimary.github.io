@@ -3,7 +3,7 @@ layout: page
 title: Publications
 permalink: /publications/
 description:
-years: [2025,2024,2023,2022]
+years: [2026,2025,2024,2023]
 publication_categories:
   - label: All
     slug: all
