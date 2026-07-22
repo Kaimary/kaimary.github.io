@@ -340,6 +340,8 @@ more_authors_animation_delay: 10 # more authors are revealed on click using anim
 enable_publication_thumbnails: true
 
 publication_category_map:
+  fan2026WAICA: infra
+  fan2026SC: distributed-training
   trinity2025: infra
   weng2025GreenMultiCluster: infra
   fan2025NL2SQL: db-systems

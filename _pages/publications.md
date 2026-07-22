@@ -9,6 +9,8 @@ publication_categories:
     slug: all
   - label: Infrastructure
     slug: infra
+  - label: Distributed Training
+    slug: distributed-training
   - label: Database
     slug: db-systems
 nav: true
