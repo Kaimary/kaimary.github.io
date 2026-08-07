@@ -924,6 +924,11 @@ footer.sticky-bottom {
         font-weight: bolder;
       }
 
+      .title + .award {
+        color: #dc3545;
+        font-weight: 600;
+      }
+
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
