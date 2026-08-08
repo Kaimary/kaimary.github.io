@@ -38,8 +38,12 @@ under_review_papers:
   #   note: "Submitted to SC 2026."
   - title: "Beyond Binary: Turning Partial Success into Dense Verifiable Rewards for Reinforcement Learning in Code Generation"
     authors: "Longwen Wang, Yirui Liu, Xuaner Wu, Xiaohui Hu, <u>Yuankai Fan</u>, Kaidong Yu, Qizhen Weng, Wei Xi, Xuelong Li"
-    status: "Manuscript under review."
+    status: "Conditional Accepted."
     note: "Submitted to EMNLP 2026."
+  - title: "Computation-Bandwidth-Memory Trade-offs: A Unified Paradigm for AI Infrastructure"
+    authors: "<u>Yuankai Fan</u>, Qizhen Weng, Xuelong Li"
+    status: "Conditional Accepted."
+    note: "Submitted to Vicinagearth 2026."
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
