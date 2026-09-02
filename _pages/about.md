@@ -30,7 +30,7 @@ under_review_papers:
     note: "Submitted to TPAMI 2026."
   - title: "m4: Rethinking Multi-Modal Data Preprocessing as Multi-Model Inference Serving Optimization"
     authors: "<u>Yuankai Fan</u>, Yiqian Xu, Chaoyi Xie, Yanbo Wang, Xuelong Li*"
-    status: "Manuscript under review."
+    status: "Manuscript under revision."
     note: "Submitted to TPAMI 2026."
   # - title: "Arachne: Orchestrating Cascades for Efficient Text-to-Video Model Training"
   #   authors: "Peng Yu, <u>Yuankai Fan</u>*, Yang Qiu, Tian Li, Bihuan Chen, Yin Chen, Qizhen Weng*"
