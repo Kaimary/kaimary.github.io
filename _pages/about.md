@@ -33,7 +33,7 @@ under_review_papers:
     status: "Manuscript under review."
     note: "Submitted to SIGMETRICS 2027."
   - title: "Quilt: Approximate KV Cache Reuse for Efficient Vision-Language Model Inference"
-    authors: "Shuheng Gao, <u>Yuankai Fan (Co-Fist Authors)</u>, Jiaqiang Ma, Jiawei Shao, Yongkun Li*, Xuelong Li*"
+    authors: "Shuheng Gao, <u>Yuankai Fan (Co-First Authors)</u>, Jiaqiang Ma, Jiawei Shao, Yongkun Li*, Xuelong Li*"
     status: "Manuscript under review."
     note: "Submitted to EuroSys 2027."
     arxiv: "https://arxiv.org/pdf/2610.25136"
