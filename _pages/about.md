@@ -36,6 +36,7 @@ under_review_papers:
     authors: "Shuheng Gao, <u>Yuankai Fan (Co-Fist Authors)</u>, Jiaqiang Ma, Jiawei Shao, Yongkun Li*, Xuelong Li*"
     status: "Manuscript under review."
     note: "Submitted to EuroSys 2027."
+    arxiv: "https://arxiv.org/pdf/2610.25136"
   - title: "N2s&#770: A Testing Framework for Trustworthy NL2SQL Translations"
     authors: "<u>Yuankai Fan</u>, Jiawei Shao, Zhenying He, X. Sean Wang, Xuelong Li*"
     status: "Manuscript under review."
