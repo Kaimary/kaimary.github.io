@@ -5,6 +5,9 @@
       <div class="under-review-entry">
         <p class="under-review-title">
           {{ paper.title }}
+          {% if paper.arxiv %}
+            <a href="{{ paper.arxiv }}">(arxiv version)</a>
+          {% endif %}
         </p>
         {% if paper.authors %}
           <p class="under-review-authors">{{ paper.authors }}</p>
@@ -12,9 +15,6 @@
         <p class="under-review-status">{{ paper.status | default: 'Manuscript under review.' }}</p>
         {% if paper.note %}
           <p class="under-review-note">{{ paper.note }}</p>
-        {% endif %}
-        {% if paper.arxiv %}
-          <p class="under-review-arxiv"><a href="{{ paper.arxiv }}">arXiv</a></p>
         {% endif %}
       </div>
     {% endfor %}
